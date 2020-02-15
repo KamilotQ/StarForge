@@ -16,9 +16,6 @@ namespace Lab2
             Console.WriteLine("Seconds past");
             string S1 = Console.ReadLine();
             int a = int.Parse(S1);
-            // Console.WriteLine("Second num");
-            //string S2 = Console.ReadLine();
-            //int b = int.Parse(S2);
             int b = 60;
             Check1(a, b);
             Console.CursorVisible = false;
