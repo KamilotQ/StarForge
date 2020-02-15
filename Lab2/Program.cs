@@ -16,7 +16,7 @@ namespace Lab2
             Console.WriteLine("Seconds past");
             string S1 = Console.ReadLine();
             int a = int.Parse(S1);
-            int b = 60;
+            int b = 60;//
             Check1(a, b);
             Console.CursorVisible = false;
             while (true)
